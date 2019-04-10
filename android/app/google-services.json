@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "498870839339",
+    "firebase_url": "https://soko-fe371.firebaseio.com",
+    "project_id": "soko-fe371",
+    "storage_bucket": "soko-fe371.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498870839339:android:0fe1ed0a53d86759",
+        "android_client_info": {
+          "package_name": "com.example.soko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6end4hQVHQuVJKDsXTmA6amnCr2XMiTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498870839339-7lag3dql5c7sarcctp1smrmtooacjbri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
