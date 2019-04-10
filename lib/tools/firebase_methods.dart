@@ -402,7 +402,7 @@ class FirebaseMethods implements AppMethods {
         DocumentReference docRef =
             await firestore.document("$panierColletion/${doc.documentID}");
         print(docRef.path);
-        firestore.runTransaction((Transaction tx) async {
+        await firestore.runTransaction((Transaction tx) async {
           await tx.delete(docRef);
           print("Deleted document in db");
         });
